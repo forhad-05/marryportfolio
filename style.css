@@ -112,7 +112,7 @@
 
     /*main */
     main {
-        width: 1900px;
+        max-width: 1900px;
     }
 
     .about-section {
@@ -165,9 +165,8 @@
         align-items: center;
         gap: 110px;
     }
-    .aboutme-eachinfo{
-     
-    }
+
+    .aboutme-eachinfo {}
 
     .aboutme-info h3 {
         color: var(--Dark-03, #757575);
@@ -182,4 +181,78 @@
         font-size: 18px;
         font-weight: 700;
         line-height: 30px;
+    }
+
+    /*about i do*/
+    .whatdo {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .title-what {
+        width: 167px;
+        height: 48px;
+        margin: 0px 717px 30px 717px;
+        color: #181818;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .whatdo-title-p {
+        width: 909px;
+        color: var(--Dark-03, #757575);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+
+    }
+
+    .whatdo-info {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        margin-top: 40px;
+    }
+
+    .whatdo-each-info {
+
+        width: 320px;
+        height: 377px;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+
+    }
+
+    .whatdo-each-info img {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        margin-left: 33px;
+    }
+
+    .whatdo-each-info h2 {
+        color: var(--Dark-01, #181818);
+        margin-left: 33px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .whatdo-each-info p {
+        width: 201px;
+        color: var(--Dark-03, #757575);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        padding-left: 33px;
     }
